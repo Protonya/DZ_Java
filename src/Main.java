@@ -46,6 +46,31 @@ public class Main {
             System.out.println("5. Такой треугольник нельзя построить");
         }
 
+            System.out.println("DZ_26. Второе домашнее задание java");
+
+            for (int i = 1; i < 10; i++){
+                System.out.println("3*" + i + "=" + 3 * i);
+            }
+
+            int sum = 0;
+            for (int j = 1; j <= 100; j++) {
+            sum += j;
+            }
+            double average = (double) sum / 100;
+            System.out.println("2. Среднее арифметическое суммы чисел от 1 до 100 равно " + average);
+
+            int innumber = 197; // входящее число
+            if (innumber < 50) {
+            System.out.println("3. Вы ввели слишком маленькое число");
+            } else {
+            int iterations = 0;
+            while (innumber >= 50) {
+                innumber /= 2;
+                iterations++;
+            }
+            System.out.println("3. Число, полученное после деления: " + innumber);
+            System.out.println("3. Количество итераций: " + iterations);
+            }
 
 
 
